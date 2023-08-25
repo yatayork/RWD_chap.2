@@ -1,0 +1,128 @@
+@media (max-width: 767px){
+    .logo_btn nav{
+        width: 30%;
+        display: flex;
+        word-break: break-all;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .logo_btn nav li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .logo_btn nav li a{
+        padding-bottom: 0px;
+    }
+
+    .logo_btn .home{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .logo_btn nav .contact{
+        margin-left: 0px;
+    }
+
+    .course{
+        display: flex;
+        justify-content: center;
+    }
+
+    .course ol{
+        display:block; 
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .course ol .html5,.rwd,.jquery{
+        margin-bottom: 24px;
+        width: 100%
+    }
+
+    .course ol .rwd{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    
+
+
+}
+
+@media (max-width: 575px) {
+    .logo_btn nav{
+        width: 41%;
+        display: flex;
+        word-break: break-all;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+}
+
+@media (max-width:420px){
+    .logo_btn nav{
+        border: 1px solid;
+        width: 41%;
+        display: flex;
+        word-break: break-all;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .logo_btn nav li a{
+        margin-right: 5px; 
+        padding-bottom: 0px;
+    }
+
+    .logo_btn nav .home , .logo_btn nav .blog{
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-right: 3px;
+    }
+}
+
+@media(max-width:322px){
+    .logo_btn nav{
+        width: 50%;
+        display: flex;
+        word-break: break-all;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+
+    .logo_btn nav li a{
+        margin-right: 9px; 
+        padding-bottom: 0px;
+    }
+
+    .logo_btn nav .blog{
+        margin-right: 15px;
+    }
+
+    .logo_btn nav .home , .logo_btn nav .blog{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .course ol{
+        display:block; 
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+}
+
+@media(max-width:280px){
+    .logo_btn nav{
+        width: 50%;
+        display: flex;
+        word-break: break-all;
+        flex-wrap: wrap;
+        justify-content: end;
+        font-size: 12px;
+    }
+}

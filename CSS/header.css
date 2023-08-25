@@ -1,0 +1,23 @@
+.header{
+    width: 100%;
+    font-size: 14px;
+    background: #f6f6f6;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.header .fb{
+    padding-right: 17px;
+    padding-left: 19px;
+    background:url(../images/fb.png) no-repeat;
+    color: #4460a0;
+}
+
+.header .twitter{
+    padding-right: 21px;
+    padding-left : 17px;
+    background: url(../images/twitter.png) no-repeat;
+    color: #00aaec;
+}
