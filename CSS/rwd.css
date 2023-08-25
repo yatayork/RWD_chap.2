@@ -51,7 +51,7 @@
 
 }
 
-@media (max-width: 575px) {
+@media (max-width: 574px) {
     .logo_btn nav{
         width: 41%;
         display: flex;
@@ -61,9 +61,8 @@
     }
 }
 
-@media (max-width:420px){
+@media (max-width:419px){
     .logo_btn nav{
-        border: 1px solid;
         width: 41%;
         display: flex;
         word-break: break-all;
